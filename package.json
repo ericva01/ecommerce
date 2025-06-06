@@ -1,16 +1,24 @@
 {
-  "name": "shopease-ecommerce",
+  "name": "e-commerce",
   "version": "1.0.0",
-  "description": "Modern e-commerce website built with Parcel, TypeScript, and Tailwind CSS",
-  "source": "index.html",
+  "description": "",
+  "browserslist": "> 0.25%, not dead",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "source": "src/index.html",
   "scripts": {
-    "dev": "parcel --port 1234",
-    "build": "parcel build",
-    "clean": "rm -rf dist .parcel-cache"
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.8",
+    "tailwindcss": "^4.1.8"
   },
   "devDependencies": {
-    "parcel": "^2.9.3",
-    "tailwindcss": "^3.3.3",
-    "typescript": "^5.1.6"
+    "@parcel/validator-typescript": "^2.15.2",
+    "parcel": "^2.15.2",
+    "typescript": "^5.8.3"
   }
 }
+
