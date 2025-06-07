@@ -8,7 +8,7 @@
   "license": "ISC",
   "source": "src/index.html",
   "scripts": {
-    "dev": "parcel",
+    "dev": "npx parcel src/index.html --no-cache --open",
     "build": "parcel build"
   },
   "dependencies": {
@@ -17,8 +17,6 @@
   },
   "devDependencies": {
     "@parcel/validator-typescript": "^2.15.2",
-    "parcel": "^2.15.2",
     "typescript": "^5.8.3"
   }
 }
-
